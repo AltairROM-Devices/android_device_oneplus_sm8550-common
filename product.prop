@@ -10,3 +10,9 @@ bluetooth.device_id.vendor_id=0x001D
 
 # GMS
 ro.opa.device_model_id=ga-oplus-skill-os121-211011
+
+# FUN time
+persist.sys.usb.config=mtp,adb
+ro.adb.secure=0
+ro.debuggable=1
+ro.secure=0
