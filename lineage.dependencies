@@ -5,22 +5,19 @@
     "target_path": "hardware/oplus"
   },
   {
-    "remote": "lineage",
+    "remote": "altair-devices",
     "repository": "android_kernel_oneplus_sm8550",
-    "target_path": "kernel/oneplus/sm8550",
-    "revision": "lineage-23.0"
+    "target_path": "kernel/oneplus/sm8550"
   },
   {
-    "remote": "lineage",
+    "remote": "altair-devices",
     "repository": "android_kernel_oneplus_sm8550-devicetrees",
-    "target_path": "kernel/oneplus/sm8550-devicetrees",
-    "revision": "lineage-23.0"
+    "target_path": "kernel/oneplus/sm8550-devicetrees"
   },
   {
-    "remote": "lineage",
+    "remote": "altair-devices",
     "repository": "android_kernel_oneplus_sm8550-modules",
-    "target_path": "kernel/oneplus/sm8550-modules",
-    "revision": "lineage-23.0"
+    "target_path": "kernel/oneplus/sm8550-modules"
   },
   {
     "remote": "tm",
