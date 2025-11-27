@@ -33,11 +33,6 @@ PRODUCT_PACKAGES += \
     otapreopt_script \
     xbl_config_arb_check
 
-# Alert slider
-PRODUCT_PACKAGES += \
-    KeyHandler \
-    tri-state-key-calibrate
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@7.1-impl \
@@ -115,6 +110,11 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # DebugFS
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
+
+# DeviceSettings
+PRODUCT_PACKAGES += \
+    DeviceSettings \
+    tri-state-key-calibrate
 
 # Display
 PRODUCT_PACKAGES += \
